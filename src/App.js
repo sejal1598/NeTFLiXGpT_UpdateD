@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl  underline">
-        Hello world!
-      </h1>
+      <Body />
     </div>
   );
 }
