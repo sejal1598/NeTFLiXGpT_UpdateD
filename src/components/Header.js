@@ -61,6 +61,10 @@ const Header = () => {
             unsubscribe()
         })
     }, [])
+
+
+
+
     return (
         <div className='absolute w-screen z-10 logo-class px-8 py-2 bg-gradient-to-b from-black flex justify-between flex-col md:flex-row  md:justify-between bg-black sm:bg-blue-900 md:bg-green-900'>
 
